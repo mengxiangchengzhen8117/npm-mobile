@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "hoist": false,
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "publish": {
+      "allowBranch": "main",
+      "ignoreChanges": [
+        "**/test/**"
+      ],
+      "message": "chore(release): publish",
+      "registry": "http://localhost:4873/"
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "version": "independent"
+}

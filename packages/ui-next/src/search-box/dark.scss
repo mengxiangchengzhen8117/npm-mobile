@@ -1,0 +1,12 @@
+@import '../style/var';
+@import '../style/func';
+
+.isDark {
+  .dc-search-box {
+    background-color: $textFieldBackgroundColorBlack;
+  }
+  
+  .dc-search-box-word {
+    color: $descriptionColorBlack;
+  }
+}

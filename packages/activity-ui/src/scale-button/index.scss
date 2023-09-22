@@ -1,0 +1,27 @@
+.anima {
+  animation-name: likes;
+  background-color: #fb5a46;
+  color: #ffffff;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+@keyframes likes {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

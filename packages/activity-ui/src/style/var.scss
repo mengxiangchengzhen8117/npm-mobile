@@ -1,0 +1,237 @@
+$backgroundColor: #fff;
+$backgroundColorBlack: #000;
+/* 一级背景 */
+$subBackgroundColor: #eaeaea;
+$subBackgroundColorBlack: #000;
+/* 二级面板图标选中底色 */
+$boldLineColor: #f5f5f5;
+$boldLineColorBlack: #000;
+$secondBackgroundColor: #fff;
+$secondBackgroundColorBlack: #151515;
+/* 二级背景（主要内容区）列表背景 */
+$subSecondBackgroundColor: #f5f5f5;
+$subSecondBackgroundColorBlack: #151515;
+/* 子二级背景（例如：浅色下  灰色背景） */
+$secondBoldLineColor: #f5f5f5;
+$secondBoldLineColorBlack: #151515;
+/* 一级/三级背景分割条 */
+$navBackgroundColor: #f9f9f9;
+$navBackgroundColorBlack: #151515;
+$thirdBackgroundColor: #fff;
+$thirdBackgroundColorBlack: #1e1e1e;
+/* 三级背景（例如: 组件弹出面板的第二级，新建弹出面板背景等） */
+$subThirdBackgroundColor: #ededed;
+$subThirdBackgroundColorBlack: #1e1e1e;
+/* 浅色 灰色背景色 */
+$contentMaskBackgroundColor: transparent;
+$contentMaskBackgroundColorBlack: rgba(0, 0, 0, 0.4);
+/* 深色模式下 通用 内容遮罩 浅色为 透明 */
+$maskBackgroundColor: rgba(0, 0, 0, 0.6);
+$maskBackgroundColorBlack: rgba(0, 0, 0, 0.6);
+/* 常规弹窗遮罩 */
+$disabledMaskColor: rgba(255, 255, 255, 0.6);
+$disabledMaskColorBlack: rgba(21, 21, 21, 0.6);
+/* 列表 某一项 禁用 遮罩 */
+$lineColor: rgba(0, 0, 0, 0.15);
+$lineColorBlack: rgba(255, 255, 255, 0.15);
+/* 列表分割线 */
+$lineColorPad: rgba(0, 0, 0, 0.1);
+$lineColorPadBlack: rgba(255, 255, 255, 0.1);
+/* 列表分割线 */
+$subLineColor: rgba(0, 0, 0, 0.15);
+$subLineColorBlack: rgba(255, 255, 255, 0.3);
+/* 组件三级面板，镂空内容边框 */
+$subLineColorPad: rgba(0, 0, 0, 0.15);
+$subLineColorPadBlack: rgba(255, 255, 255, 0.2);
+/* 组件三级面板，镂空内容边框 */
+$textFieldBackgroundColor: rgba(0, 0, 0, 0.05);
+$textFieldBackgroundColorBlack: rgba(255, 255, 255, 0.1);
+/* 公共搜索框底色、重命名输入框底色 */
+$progressTrackColor: #b6b6b6;
+$progressTrackColorBlack: #2b2b2e;
+/* 加载进度条底色 */
+$switchOnColor: #417ff9;
+$switchOnColorBlack: #417ff9;
+/* 开关选中颜色 */
+$bannerBackgroundColor: #f2f2f2;
+$bannerBackgroundColorBlack: rgba(45, 45, 45, 0.9);
+/* Snackbar背景色 横幅 Banner */
+$keyboardBackgroundColor: #d1d5db;
+$keyboardBackgroundColorBlack: #313131;
+/* 键盘背景 */
+$keyboardButtonNormalColor: #fcfcfe;
+$keyboardButtonNormalColorBlack: #434343;
+/* 键盘浅色按钮 */
+$keyboardButtonSelectedColor: #adb3bc;
+$keyboardButtonSelectedColorBlack: #242424;
+/* 键盘深色按钮 */
+$componentToolbarBackgroundColor: #f9f9f9;
+$componentToolbarBackgroundColorBlack: #1e1e1e;
+/* 平板组件工具栏 */
+$componentToolbarSelectedColor: #f5f5f5;
+$componentToolbarSelectedColorBlack: #151515;
+/* 组件工具栏 某一项的选中色 */
+$componentToolbarSelectedColorPad: #ededed;
+$componentToolbarSelectedColorPadBlack: #151515;
+/* 组件工具栏 某一项的选中色 */
+$WPPBackgroundColor: #ddd;
+$WPPBackgroundColorBlack: #000;
+/* 演示组件编辑背景 */
+$cellSelectedColor: rgba(0, 0, 0, 0.05);
+$cellSelectedColorBlack: rgba(255, 255, 255, 0.1);
+/* 列表选中按下状态（ios专用） */
+$disabledMaskAssistBackgroundColor: #f8f8f8;
+$disabledMaskAssistBackgroundColorBlack: #151515;
+/* 列表 某一项 禁用 遮罩 辅助背景（消息中心 消息置灰） */
+$normalIconColor: #535252;
+$normalIconColorBlack: #9b9b9b;
+$normalIconPressedColor: rgba(83, 82, 82, 0.4);
+$normalIconPressedColorBlack: rgba(155, 155, 155, 0.4);
+$normalIconDisabledColor: rgba(83, 82, 82, 0.2);
+$normalIconDisabledColorBlack: rgba(155, 155, 155, 0.2);
+$rippleColor: rgba(0, 0, 0, 0.1);
+$rippleColorBlack: rgba(255, 255, 255, 0.05);
+/* 安卓 水波纹 */
+$buttonRippleColor: rgba(0, 0, 0, 0.1);
+$buttonRippleColorBlack: rgba(0, 0, 0, 0.1);
+/* 安卓 按钮水波纹 */
+$tisBackgroundColor: #454545;
+$tisBackgroundColorBlack: #454545;
+/* 组件提示条背景色 */
+$tisBackgroundColor: #454545;
+$tisBackgroundColorBlack: #454545;
+/* 组件提示条背景色 */
+$buttonMainColor: #fb5b24;
+$buttonMainColorBlack: rgba(36, 91, 251, 0.9);
+/* 增值主操作按钮 （橙红色） */
+$buttonMainPressedColor: rgba(36, 91, 251, 0.4);
+$buttonMainPressedColorBlack: rgba(36, 91, 251, 0.4);
+/* 增值主操作按钮 按下 */
+$buttonMainDisableColor: rgba(36, 91, 251, 0.2);
+$buttonMainDisableColorBlack: rgba(36, 91, 251, 0.2);
+/* 增值主操作按钮 置灰 */
+$buttonMainDisableColor: rgba(36, 91, 251, 0.2);
+$buttonMainDisableColorBlack: rgba(36, 91, 251, 0.2);
+/* 增值主操作按钮 置灰 */
+$buttonSecondaryColor: #417ff9;
+$buttonSecondaryColorBlack: rgba(249, 127, 65, 0.9);
+/* 主操作按钮（蓝色） */
+$buttonSecondaryPressedColor: rgba(249, 127, 65, 0.4);
+$buttonSecondaryPressedColorBlack: rgba(249, 127, 65, 0.4);
+/* 主操作按钮 按下 */
+$buttonSecondaryDisableColor: rgba(249, 127, 65, 0.2);
+$buttonSecondaryDisableColorBlack: rgba(249, 127, 65, 0.2);
+/* 主操作按钮 置灰 */
+$buttonSecondaryDisableColor: rgba(249, 127, 65, 0.2);
+$buttonSecondaryDisableColorBlack: rgba(249, 127, 65, 0.2);
+$buttonThirdColor: #f5f5f5;
+$buttonThirdColorBlack: #434343;
+$borderLineColor: #d9d9d9;
+$borderLineColorBlack: rgba(217, 217, 217, 0);
+$buttonThirdPressedColor: rgba(245, 245, 245, 0.4);
+$buttonThirdPressedColorBlack: rgba(67, 67, 67, 0.4);
+$buttonThirdDisableColor: rgba(245, 245, 245, 0.2);
+$buttonThirdDisableColorBlack: rgba(67, 67, 67, 0.2);
+$buttonThirdDisableColor: rgba(245, 245, 245, 0.2);
+$buttonThirdDisableColorBlack: rgba(67, 67, 67, 0.2);
+$premiumBlackColor: #444343;
+$premiumBlackColorBlack: #444343;
+$premiumBlackPressedColor: rgba(68, 67, 67, 0.4);
+$premiumBlackPressedColorBlack: rgba(68, 67, 67, 0.4);
+$premiumBlackDisableColor: rgba(68, 67, 67, 0.2);
+$premiumBlackDisableColorBlack: rgba(68, 67, 67, 0.2);
+$premiumBlackDisableColor: rgba(68, 67, 67, 0.2);
+$premiumBlackDisableColorBlack: rgba(68, 67, 67, 0.2);
+$largeIconSelectedBackgroundColor: #ededed;
+$largeIconSelectedBackgroundColorBlack: #151515;
+$colorfulBackgroundColor: #f5f7fd;
+$colorfulBackgroundColorBlack: #151515;
+$titlebarIconColor: #fff;
+$titlebarIconColorBlack: #9b9b9b;
+$titlebarIconPressedColor: rgba(255, 255, 255, 0.4);
+$titlebarIconPressedColorBlack: rgba(155, 155, 155, 0.4);
+$titlebarIconDisabledColor: rgba(255, 255, 255, 0.2);
+$titlebarIconDisabledColorBlack: rgba(155, 155, 155, 0.2);
+$backgroundHighLightColor: rgba(0, 0, 0, 0.1);
+$backgroundHighLightColorBlack: rgba(255, 255, 255, 0.1);
+$buttonCommonGoldPremiumColor: #f5cc76;
+$buttonCommonGoldPremiumColorBlack: #f5cc76;
+$buttonCommonWhiteVipColor: #fff;
+$buttonCommonWhiteVipColorBlack: #fff;
+$buttonCommonWhiteVipColor: #fff;
+$buttonCommonWhiteVipColorBlack: #fff;
+$buttonFourthColor: #fff;
+$buttonFourthColorBlack: #434343;
+$buttonFourthPresseColor: rgba(255, 255, 255, 0.4);
+$buttonFourthPresseColorBlack: rgba(67, 67, 67, 0.4);
+$buttonFourthDisableColor: rgba(255, 255, 255, 0.2);
+$buttonFourthDisableColorBlack: rgba(67, 67, 67, 0.2);
+$popUpShadowColor: rgba(0, 0, 0, 0.1);
+$popUpShadowColorBlack: rgba(0, 0, 0, 0.1);
+$msgCenterTipsBackgroundColor: #696e78;
+$msgCenterTipsBackgroundColorBlack: #151515;
+$WPPPadEditModeBackgroundColor: #ededed;
+$WPPPadEditModeBackgroundColorBlack: #000;
+$canDefaultBackgroundColor: #222226;
+$canDefaultBackgroundColorBlack: #222226;
+$scanNavBackgroundColor: rgba(34, 34, 38, 0.9);
+$scanNavBackgroundColorBlack: rgba(34, 34, 38, 0.9);
+$scanNavBackgroundColor: rgba(34, 34, 38, 0.9);
+$scanNavBackgroundColorBlack: rgba(34, 34, 38, 0.9);
+$home_pay_member_yellow: #fe9a0d;
+$home_pay_member_yellowBlack: rgba(254, 154, 13, 0.9);
+$home_pay_member_yellow_pressed: rgba(254, 154, 13, 0.4);
+$home_pay_member_yellow_pressedBlack: rgba(254, 154, 13, 0.4);
+$home_pay_member_yellow_unabled: rgba(254, 154, 13, 0.2);
+$home_pay_member_yellow_unabledBlack: rgba(254, 154, 13, 0.2);
+$home_pay_member_yellow_unabled: rgba(254, 154, 13, 0.2);
+$home_pay_member_yellow_unabledBlack: rgba(254, 154, 13, 0.2);
+$phoneWriterRightPanelColor: #efefef;
+$phoneWriterRightPanelColorBlack: #000;
+$phoneWriterRightPanelColor: #efefef;
+$phoneWriterRightPanelColorBlack: #000;
+$premiumGrayColor: #ededed;
+$premiumGrayColorBlack: #cacaca;
+
+$mainTextColor: #000;
+$mainTextColorBlack: rgba(255, 255, 255, 0.9);
+/* 1号色(标题 / 主要内容) */
+$subTextColor: rgba(0, 0, 0, 0.7);
+$subTextColorBlack: rgba(255, 255, 255, 0.7);
+/* 2号色(标题栏操作) */
+$descriptionColor: rgba(0, 0, 0, 0.4);
+$descriptionColorBlack: rgba(255, 255, 255, 0.4);
+/* 3号色(描述 / 次要内容 ) */
+$disableColor: rgba(0, 0, 0, 0.2);
+$disableColorBlack: rgba(255, 255, 255, 0.2);
+/* 4号色(不可操作) */
+$whiteMainTextColor: #fff;
+$whiteMainTextColorBlack: rgba(255, 255, 255, 0.9);
+/* 白色 1级文本 (主操作按钮字体) */
+$whiteSubTextColor: #fff;
+$whiteSubTextColorBlack: rgba(255, 255, 255, 0.7);
+/* 白色 2级文本 */
+$whiteMainTextPressedColor: #fff;
+$whiteMainTextPressedColorBlack: rgba(255, 255, 255, 0.4);
+$whiteMainTextDisabledColor: #fff;
+$whiteMainTextDisabledColorBlack: rgba(255, 255, 255, 0.2);
+$premiumBlackTextColor: #ffdb9a;
+$premiumBlackTextColorBlack: #ffdb9a;
+$premiumBlackTextPressedColor: rgba(255, 219, 154, 0.4);
+$premiumBlackTextPressedColorBlack: rgba(255, 219, 154, 0.4);
+$premiumBlackTextDisableColor: rgba(255, 219, 154, 0.2);
+$premiumBlackTextDisableColorBlack: rgba(255, 219, 154, 0.2);
+$premiumGoldTextColor: #f5cc76;
+$premiumGoldTextColorBlack: #f5cc76;
+$premiumSubGoldTextColor: rgba(245, 204, 118, 0.7);
+$premiumSubGoldTextColorBlack: rgba(245, 204, 118, 0.7);
+$premiumSubBlackTextColor: rgba(0, 0, 0, 0.7);
+$premiumSubBlackTextColorBlack: rgba(0, 0, 0, 0.7);
+$premiumSubWhiteTextColor: rgba(255, 255, 255, 0.7);
+$premiumSubWhiteTextColorBlack: rgba(255, 255, 255, 0.7);
+$mainColor: #ea5035;
+$mainColorBlack: #ea5035;
+$secondaryColor: #417ff9;
+$secondaryColorBlack: #417ff9;
+$ETMainColor: #1fbb7d;
+$ETMainColorBlack: #1fbb7d;
