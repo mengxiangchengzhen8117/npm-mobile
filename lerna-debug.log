@@ -1,0 +1,11 @@
+48 error Error: Command failed with exit code 1: git add -- packages/ui-next/package.json packages/activity-ui/package.json packages/activity-ui/package-lock.json packages/ui-next/CHANGELOG.md packages/activity-ui/CHANGELOG.md
+48 error The following paths are ignored by one of your .gitignore files:
+48 error packages/activity-ui/package-lock.json
+48 error hint: Use -f if you really want to add them.
+48 error hint: Turn this message off by running
+48 error hint: "git config advice.addIgnoredFile false"
+48 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+48 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
+48 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+48 error     at async VersionCommand.updatePackageVersions (/usr/local/lib/node_modules/lerna/dist/index.js:8308:11)
+48 error     at async Promise.all (index 0)

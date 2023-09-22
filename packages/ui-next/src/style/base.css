@@ -1,0 +1,312 @@
+/* 日常-暗黑模式下颜色值变量：文档https://www.kdocs.cn/l/sJ46moYzC?f=501 */
+:root {
+  /* 背景样式 */
+  --backgroundColor: #fff;
+  --backgroundColorBlack: #000;
+  /* 一级背景 */
+  --subBackgroundColor: #eaeaea;
+  --subBackgroundColorBlack: #000;
+  /* 二级面板图标选中底色 */
+  --boldLineColor: #f5f5f5;
+  --boldLineColorBlack: #000;
+  /* 二级背景分割条 （例如：新建弹出面板），ppt window背景 */
+  --secondBackgroundColor: #fff;
+  --secondBackgroundColorBlack: #151515;
+  /* 二级背景（主要内容区）列表背景 */
+  --subSecondBackgroundColor: #f5f5f5;
+  --subSecondBackgroundColorBlack: #151515;
+  /* 子二级背景（例如：浅色下  灰色背景） */
+  --secondBoldLineColor: #f5f5f5;
+  --secondBoldLineColorBlack: #151515;
+  /* 一级/三级背景分割条 */
+  --navBackgroundColor: #f9f9f9;
+  --navBackgroundColorBlack: #151515;
+  /* 公共 导航栏 */
+  --WPSNavBackgroundColor: #3684e4;
+  --WPSNavBackgroundColorBlack: #151515;
+  /* 文字组件 导航栏颜色 */
+  --ETNavBackgroundColor: #1cac73;
+  --ETNavBackgroundColorBlack: #151515;
+  /* 表格组件 导航栏颜色 */
+  --WPPNavBackgroundColor: #e36134;
+  --WPPNavBackgroundColorBlack: #151515;
+  /* 演示组件 导航栏颜色 */
+  --PDFNavBackgroundColor: #e13f2b;
+  --PDFNavBackgroundColorBlack: #151515;
+  /* PDF组件 导航栏颜色 */
+  --whiteNavBackgroundColor: #fff;
+  --whiteNavBackgroundColorBlack: #151515;
+  /* iPad 主菜单一级界面导航栏 */
+  --thirdBackgroundColor: #fff;
+  --thirdBackgroundColorBlack: #1e1e1e;
+  /* 三级背景（例如: 组件弹出面板的第二级，新建弹出面板背景等） */
+  --subThirdBackgroundColor: #ededed;
+  --subThirdBackgroundColorBlack: #1e1e1e;
+  /* 浅色 灰色背景色 */
+  --fourthBackgroundColor: #fff;
+  --fourthBackgroundColorBlack: #272727;
+  /* 四级背景 */
+  --contentMaskBackgroundColor: transparent;
+  --contentMaskBackgroundColorBlack: rgba(0, 0, 0, 0.4);
+  /* 深色模式下 通用 内容遮罩 浅色为 透明 */
+  --maskBackgroundColor: rgba(0, 0, 0, 0.6);
+  --maskBackgroundColorBlack: rgba(0, 0, 0, 0.6);
+  /* 常规弹窗遮罩 */
+  --disabledMaskColor: rgba(255, 255, 255, 0.6);
+  --disabledMaskColorBlack: rgba(21, 21, 21, 0.6);
+  /* 列表 某一项 禁用 遮罩 */
+  --lineColor: rgba(0, 0, 0, 0.15);
+  --lineColorBlack: rgba(255, 255, 255, 0.15);
+  /* 列表分割线 */
+  --lineColorPad: rgba(0, 0, 0, 0.1);
+  --lineColorPadBlack: rgba(255, 255, 255, 0.1);
+  /* 列表分割线 */
+  --subLineColor: rgba(0, 0, 0, 0.15);
+  --subLineColorBlack: rgba(255, 255, 255, 0.3);
+  /* 组件三级面板，镂空内容边框 */
+  --subLineColorPad: rgba(0, 0, 0, 0.15);
+  --subLineColorPadBlack: rgba(255, 255, 255, 0.2);
+  /* 组件三级面板，镂空内容边框 */
+  --textFieldBackgroundColor: rgba(0, 0, 0, 0.05);
+  --textFieldBackgroundColorBlack: rgba(255, 255, 255, 0.1);
+  /* 公共搜索框底色、重命名输入框底色 */
+  --progressTrackColor: #b6b6b6;
+  --progressTrackColorBlack: #2b2b2e;
+  /* 加载进度条底色 */
+  --switchOnColor: #417ff9;
+  --switchOnColorBlack: #417ff9;
+  /* 开关选中颜色 */
+  --bannerBackgroundColor: #f2f2f2;
+  --bannerBackgroundColorBlack: rgba(45, 45, 45, 0.9);
+  /* Snackbar背景色 横幅 Banner */
+  --keyboardBackgroundColor: #d1d5db;
+  --keyboardBackgroundColorBlack: #313131;
+  /* 键盘背景 */
+  --keyboardButtonNormalColor: #fcfcfe;
+  --keyboardButtonNormalColorBlack: #434343;
+  /* 键盘浅色按钮 */
+  --keyboardButtonSelectedColor: #adb3bc;
+  --keyboardButtonSelectedColorBlack: #242424;
+  /* 键盘深色按钮 */
+  --componentToolbarBackgroundColor: #f9f9f9;
+  --componentToolbarBackgroundColorBlack: #1e1e1e;
+  /* 平板组件工具栏 */
+  --componentToolbarSelectedColor: #f5f5f5;
+  --componentToolbarSelectedColorBlack: #151515;
+  /* 组件工具栏 某一项的选中色 */
+  --componentToolbarSelectedColorPad: #ededed;
+  --componentToolbarSelectedColorPadBlack: #151515;
+  /* 组件工具栏 某一项的选中色 */
+  --WPPBackgroundColor: #ddd;
+  --WPPBackgroundColorBlack: #000;
+  /* 演示组件编辑背景 */
+  --cellselectedColor: rgba(0, 0, 0, 0.05);
+  --cellselectedColorBlack: rgba(255, 255, 255, 0.1);
+  /* 列表选中按下状态（ios专用） */
+  --disabledMaskAssistBackgroundColor: #f8f8f8;
+  --disabledMaskAssistBackgroundColorBlack: #151515;
+  /* 列表 某一项 禁用 遮罩 辅助背景（消息中心 消息置灰） */
+  --normalIconColor: #535252;
+  --normalIconColorBlack: #9b9b9b;
+  /* 普通图标  正常状态 */
+  --normalIconPressedColor: rgba(83, 82, 82, 0.4);
+  --normalIconPressedColorBlack: rgba(155, 155, 155, 0.4);
+  /* 普通图标  点击状态     浅灰色单色图标 */
+  --normalIconDisabledColor: rgba(83, 82, 82, 0.2);
+  --normalIconDisabledColorBlack: rgba(155, 155, 155, 0.2);
+  /* 普通图标  置灰状态 */
+  --cellSelectedColor: rgba(0, 0, 0, 0.05);
+  --cellSelectedColorBlack: rgba(255, 255, 255, 0.05);
+  /* 安卓 选中按下状态 */
+  --rippleColor: rgba(0, 0, 0, 0.1);
+  --rippleColorBlack: rgba(255, 255, 255, 0.05);
+  /* 安卓 水波纹 */
+  --buttonRippleColor: rgba(0, 0, 0, 0.1);
+  --buttonRippleColorBlack: rgba(0, 0, 0, 0.1);
+  /* 安卓 按钮水波纹 */
+  --tisBackgroundColor: #454545;
+  --tisBackgroundColorBlack: #454545;
+  /* 组件提示条背景色 */
+  --buttonMainColor: #ff4e37;
+  --buttonMainColorBlack: rgba(255, 78, 55, 0.9);
+  /* 增值主操作按钮 （橙红色） */
+  --buttonMainPressedColor: rgba(255, 78, 55, 0.4);
+  --buttonMainPressedColorBlack: rgba(255, 78, 55, 0.4);
+  /* 增值主操作按钮 按下 */
+  --buttonMainDisableColor: rgba(255, 78, 55, 0.2);
+  --buttonMainDisableColorBlack: rgba(255, 78, 55, 0.2);
+  /* 增值主操作按钮 置灰 */
+  --buttonSecondaryColor: #417ff9;
+  --buttonSecondaryColorBlack: rgba(65, 127, 249, 0.9);
+  /* 主操作按钮（蓝色） */
+  --buttonSecondaryPressedColor: rgba(65, 127, 249, 0.4);
+  --buttonSecondaryPressedColorBlack: rgba(65, 127, 249, 0.4);
+  /* 主操作按钮 按下 */
+  --buttonSecondaryDisableColor: rgba(65, 127, 249, 0.2);
+  --buttonSecondaryDisableColorBlack: rgba(65, 127, 249, 0.2);
+  /* 主操作按钮 置灰 */
+  --itemSecondarySelectedColor: rgba(65, 127, 249, 0.1);
+  --itemSecondarySelectedColorBlack: rgba(65, 127, 249, 0.1);
+  /* 首页筛选选中状态 */
+  --buttonThirdColor: #f5f5f5;
+  --buttonThirdColorBlack: #434343;
+  /* 辅助按钮颜色（浅灰色） */
+  --borderLineColor: #d9d9d9;
+  --borderLineColorBlack: rgba(217, 217, 217, 0);
+  /* 辅助按钮颜色描边(深色模式描边透明度为0 ) */
+  --buttonThirdPressedColor: rgba(245, 245, 245, 0.4);
+  --buttonThirdPressedColorBlack: rgba(67, 67, 67, 0.4);
+  /* 辅助按钮 按下 */
+  --buttonThirdDisableColor: rgba(245, 245, 245, 0.2);
+  --buttonThirdDisableColorBlack: rgba(67, 67, 67, 0.2);
+  /* 辅助按钮 置灰 */
+  --premiumBlackColor: #1a140c;
+  --premiumBlackColorBlack: #42321e;
+  /* 超级会员按钮 （深灰色） */
+  --premiumBlackPressedColor: rgba(26, 20, 12, 0.4);
+  --premiumBlackPressedColorBlack: rgba(66, 50, 30, 0.4);
+  /* 超级会员按钮 （深灰色）按下 */
+  --premiumBlackDisableColor: rgba(26, 20, 12, 0.2);
+  --premiumBlackDisableColorBlack: rgba(66, 50, 30, 0.2);
+  /* 超级会员按钮 （深灰色）置灰 */
+  --largeIconSelectedBackgroundColor: #ededed;
+  --largeIconSelectedBackgroundColorBlack: #151515;
+  /* 平板 首页导航栏图标选中背景，组件工具栏图标选中背景 */
+  --colorfulBackgroundColor: #f5f7fd;
+  --colorfulBackgroundColorBlack: #151515;
+  /* 启动页（有插图）背景色 */
+  --titlebarIconColor: #fff;
+  --titlebarIconColorBlack: #9b9b9b;
+  /* 组件阅读模式标题栏图标  正常状态 */
+  --titlebarIconPressedColor: rgba(255, 255, 255, 0.4);
+  --titlebarIconPressedColorBlack: rgba(155, 155, 155, 0.4);
+  /* 组件阅读模式标题栏图标  点击状态 */
+  --titlebarIconDisabledColor: rgba(255, 255, 255, 0.2);
+  --titlebarIconDisabledColorBlack: rgba(155, 155, 155, 0.2);
+  /* 组件阅读模式标题栏图标  置灰状态 */
+  --backgroundHighLightColor: rgba(0, 0, 0, 0.1);
+  --backgroundHighLightColorBlack: rgba(255, 255, 255, 0.1);
+  /* 消息中心推送消息高亮提醒 */
+  --buttonCommonGoldPremiumColor: #f5cc76;
+  --buttonCommonGoldPremiumColorBlack: #f5cc76;
+  /* 超级会员卡片按钮（金黄色） */
+  --buttonCommonWhiteVipColor: #fff;
+  --buttonCommonWhiteVipColorBlack: #fff;
+  /* WPS会员、会员卡片按钮（白色） */
+  --buttonFourthColor: #fff;
+  --buttonFourthColorBlack: #434343;
+  /* 登录页面白色按钮背景色 */
+  --buttonFourthPresseColor: rgba(255, 255, 255, 0.4);
+  --buttonFourthPresseColorBlack: rgba(67, 67, 67, 0.4);
+  /* 登录页面白色按钮背景色按下 */
+  --buttonFourthDisableColor: rgba(255, 255, 255, 0.2);
+  --buttonFourthDisableColorBlack: rgba(67, 67, 67, 0.2);
+  /* 登录页面白色按钮背景色置灰 */
+  --popUpShadowColor: rgba(0, 0, 0, 0.1);
+  --popUpShadowColorBlack: rgba(0, 0, 0, 0.1);
+  /* 弹框投影 */
+  --msgCenterTipsBackgroundColor: #696e78;
+  --msgCenterTipsBackgroundColorBlack: #151515;
+  /* 消息中心提示条背景 */
+  --WPPPadEditModeBackgroundColor: #ededed;
+  --WPPPadEditModeBackgroundColorBlack: #000;
+  /* 平板 演示组件编辑背景 */
+  --canDefaultBackgroundColor: #222226;
+  --canDefaultBackgroundColorBlack: #222226;
+  /* 拍照扫描 裁剪等深色页面背景 */
+  --scanNavBackgroundColor: rgba(34, 34, 38, 0.9);
+  --scanNavBackgroundColorBlack: rgba(34, 34, 38, 0.9);
+  /* 拍照扫描 裁剪等深色页面标题栏、工具栏颜色 */
+  --home_pay_member_yellow: #ff980f;
+  --home_pay_member_yellowBlack: rgba(255, 152, 15, 0.9);
+  /* WPS会员按钮 （黄色） */
+  --home_pay_member_yellow_pressed: rgba(255, 152, 15, 0.4);
+  --home_pay_member_yellow_pressedBlack: rgba(255, 152, 15, 0.4);
+  /* WPS会员按钮 （黄色）按下 */
+  --home_pay_member_yellow_unabled: rgba(255, 152, 15, 0.2);
+  --home_pay_member_yellow_unabledBlack: rgba(255, 152, 15, 0.2);
+  /* WPS会员按钮 （黄色）置灰 */
+  --phoneWriterRightPanelColor: #efefef;
+  --phoneWriterRightPanelColorBlack: #000;
+  /* 文字组件 批注背景色 文字打印背景色 */
+  --premiumGrayColor: #ededed;
+  --premiumGrayColorBlack: #cacaca;
+  /* 会员卡片未开通 卡片背景色 */
+  --loadingTrackColor: rgba(20, 39, 77, 0.1);
+  --loadingTrackColorBlack: rgba(20, 39, 77, 0.1);
+  /* loading背景色 */
+  --loginBorderLineColor: #979797;
+  --loginBorderLineColorBlack: #979797;
+  /* 登录次级按钮描边 */
+  --contextMenuBackgroundColor: #535353;
+  --contextMenuBackgroundColorBlack: transparent;
+  /* 上下文菜单背景色 */
+  --subThumbBackgroundColor: #f7f7f7;
+  --subThumbBackgroundColorBlack: rgba(45, 45, 45, 0.9);
+  /* 上下文菜单背景色 */
+
+  /*  文字样式  */
+  --mainTextColor: #000;
+  --mainTextColorBlack: rgba(255, 255, 255, 0.9);
+  /* 1号色(标题 / 主要内容) */
+  --subTextColor: rgba(0, 0, 0, 0.7);
+  --subTextColorBlack: rgba(255, 255, 255, 0.7);
+  /* 2号色(标题栏操作) */
+  --descriptionColor: rgba(0, 0, 0, 0.4);
+  --descriptionColorBlack: rgba(255, 255, 255, 0.4);
+  /* 3号色(描述 / 次要内容 ) */
+  --disableColor: rgba(0, 0, 0, 0.2);
+  --disableColorBlack: rgba(255, 255, 255, 0.2);
+  /* 4号色(不可操作) */
+  --whiteMainTextColor: #fff;
+  --whiteMainTextColorBlack: rgba(255, 255, 255, 0.9);
+  /* 白色 1级文本 (主操作按钮字体) */
+  --whiteSubTextColor: #fff;
+  --whiteSubTextColorBlack: rgba(255, 255, 255, 0.7);
+  /* 白色 2级文本 */
+  --whiteMainTextPressedColor: #fff;
+  --whiteMainTextPressedColorBlack: rgba(255, 255, 255, 0.4);
+  /* 主操作按钮字体 按下 */
+  --whiteMainTextDisabledColor: #fff;
+  --whiteMainTextDisabledColorBlack: rgba(255, 255, 255, 0.2);
+  /* 主操作按钮字体 置灰 */
+  --premiumBlackTextColor: #ffdb9a;
+  --premiumBlackTextColorBlack: #ffdb9a;
+  /* 超级会员 深灰色按钮字体 */
+  --premiumBlackTextPressedColor: rgba(240, 200, 128, 0.4);
+  --premiumBlackTextPressedColorBlack: rgba(255, 219, 154, 0.4);
+  /* 超级会员 深灰色按钮字体 按下 */
+  --premiumBlackTextDisableColor: rgba(255, 219, 154, 0.2);
+  --premiumBlackTextDisableColorBlack: rgba(255, 219, 154, 0.2);
+  /* 超级会员 深灰色按钮字体 置灰 */
+  --premiumGoldTextColor: #f5cc76;
+  --premiumGoldTextColorBlack: #f5cc76;
+  /* 超级会员卡片字体1 */
+  --premiumSubGoldTextColor: rgba(245, 204, 118, 0.7);
+  --premiumSubGoldTextColorBlack: rgba(245, 204, 118, 0.7);
+  /* 超级会员卡片字体2 */
+  --premiumSubBlackTextColor: rgba(0, 0, 0, 0.7);
+  --premiumSubBlackTextColorBlack: rgba(0, 0, 0, 0.7);
+  /* 超级会员卡片按钮字体 */
+  --premiumSubWhiteTextColor: rgba(255, 255, 255, 0.7);
+  --premiumSubWhiteTextColorBlack: rgba(255, 255, 255, 0.7);
+  /* WPS会员、会员卡片次级文本 */
+  --mainColor: #ff2832;
+  --mainColorBlack: #ff2832;
+  /* 品牌红 */
+  --secondaryColor: #417ff9;
+  --secondaryColorBlack: #417ff9;
+  /* 公共蓝 */
+  --ETMainColor: #1fbb7d;
+  --ETMainColorBlack: #1fbb7d;
+  /* 表格绿 */
+  --WPSMainColor: #4991f2;
+  --WPSMainColorBlack: #4991f2;
+  /* 文字蓝 */
+  --WPPMainColor: #f46d43;
+  --WPPMainColorBlack: #f46d43;
+  /* 演示橙 */
+  --PDFMainColor: #eb5451;
+  --PDFMainColorBlack: #eb5451;
+  /* PDF红 */
+}

@@ -1,0 +1,95 @@
+@import '../style/var';
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dc-status-graph {
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__cover {
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+
+        &-box {
+            width: inherit;
+            height: inherit;
+            background-size: 100%;
+        }
+
+        svg,
+        img {
+            vertical-align: top;
+            width: inherit;
+            height: inherit;
+            fill: currentColor;
+        }
+    }
+
+    &__cover-circle {
+        width: 35px;
+        height: 35px;
+		animation: circle linear 1s infinite;
+    }
+
+    &__description {
+        margin-top: 16px;
+
+        p {
+            margin: 0;
+            line-height: 20px;
+            color: $normalIconColor;
+            font-size: 13px;
+        }
+
+        &-cbtext {
+            color: $WPSMainColor;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+    &__button {
+        width: 120px;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: $buttonSecondaryColor;
+        color: $whiteMainTextColor;
+        padding: 7px 0;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}
+
+.isDark {
+    .dc-status-graph {
+        &__description {
+            p {
+                color: $descriptionColorBlack;
+            }
+        }
+
+        &__button {
+            color: $whiteMainTextColorBlack;
+        }
+    }
+}

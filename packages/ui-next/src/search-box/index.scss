@@ -1,0 +1,83 @@
+@import '../style/var';
+@import '../style/func';
+@import './dark.scss';
+
+.dc-search-box-wrapper {
+  width: 100%;
+  background-color: transparent;
+}
+
+.dc-search-box {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  background-color: $textFieldBackgroundColor;
+  border-radius: 30px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  transition: background .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.dc-search-box-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+
+.dc-search-box-word {
+  display: inline-block;
+  width: calc(100% - 40px);
+  height: 30px;
+  line-height: 20px;
+  font-size: 14px;
+  color: $descriptionColor;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  &.animate {
+    position: absolute;
+    left: 30px;
+    animation: enter .2s linear, leave .3s linear 3.8s;
+  }
+
+  @at-root .isAndroid & {
+    margin-top: 1px;
+  }
+}
+
+.dc-search-box-right-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+    transform: translateY(0px);
+  }
+}
+@keyframes leave {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}

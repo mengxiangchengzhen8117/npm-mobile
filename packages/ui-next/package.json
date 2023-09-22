@@ -1,0 +1,73 @@
+{
+  "name": "@mobile/ui-next",
+  "version": "1.0.2",
+  "description": "",
+  "author": "wzz",
+  "license": "MIT",
+  "main": "lib/ui-next.js",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "dev": "vant-cli dev",
+    "test": "vant-cli test",
+    "lint": "vant-cli lint",
+    "build": "vant-cli build && npm run build:emitDeclaration && npm run build:css:px2rem",
+    "build:emitDeclaration": "node ./script/buildTypes.js",
+    "build:css:px2rem": "node ./script/px2rem.js",
+    "build:yalc": "npm run build && yalc publish",
+    "release": "vant-cli release",
+    "test:coverage": "open test/coverage/index.html",
+    "build-site": "vant-cli build-site && gh-pages -d site"
+  },
+  "husky": {
+    "hooks": {}
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,vue}": "eslint --fix",
+    "*.{vue,css,less,scss}": "stylelint --fix"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@vant/cli": "^2.0.0",
+    "babel-plugin-const-enum": "^1.0.1",
+    "babel-plugin-import": "^1.13.0",
+    "execa": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "postcss-pxtorem": "^5",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@vant"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@vant/stylelint-config"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 8"
+  ],
+  "dependencies": {
+    "postcss": "^8.3.5",
+    "postcss-discard-duplicates": "^5.0.1",
+    "qrcode": "^1.4.4",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "gitHead": "dcaff8cd235608c0b9faf0c4cf312c9031415125"
+}

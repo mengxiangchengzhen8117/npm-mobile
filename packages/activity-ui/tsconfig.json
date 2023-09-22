@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "ES2019",
+    "module": "ESNext",
+    "strict": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "jsxFactory": "VueTsxSupport",
+    "outDir": "./dist",
+    "baseUrl": ".",
+  },
+  "include": [
+    "node_modules/vue-tsx-support/enable-check.d.ts",
+    "src/**/*",
+    "types/**/*",
+    "docs/**/*",
+    "test/**/*",
+  ]
+}
