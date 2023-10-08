@@ -17,7 +17,7 @@
       "ignoreChanges": [
         "**/test/**"
       ],
-      "message": "chore(release): publish",
+      "message": "chore(main): publish",
       "registry": "http://localhost:4873/"
     }
   },

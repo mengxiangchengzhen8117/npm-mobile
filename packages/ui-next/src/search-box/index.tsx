@@ -7,7 +7,7 @@ import Icon from '../icons'
   name: 'dcSearchBox'
 })
 export default class DcSearchBox extends Vue {
-  @Prop({ type: String, default: '搜索' }) defaultPlaceHolder: string
+  @Prop({ type: String, default: '搜索..' }) defaultPlaceHolder: string
   @Prop({ type: String, default: '大家都在搜：' }) defaultWordPrefix: string
   @Prop({ type: Array, default: () => [] }) words: Array<string>
   @Prop({ type: Number, default: 4000 }) circle: number

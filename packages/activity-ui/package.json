@@ -1,6 +1,6 @@
 {
   "name": "@mobile/activity-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/activity-ui.js",
   "style": "lib/index.css",
@@ -69,5 +69,5 @@
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2"
   },
-  "gitHead": "1d41e23d0278215525a20cd3b2c380cd59fe4ded"
+  "gitHead": "dcaff8cd235608c0b9faf0c4cf312c9031415125"
 }
