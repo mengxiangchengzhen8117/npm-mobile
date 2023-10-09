@@ -1,7 +1,7 @@
 {
   "name": "@mobile/activity-ui",
   "version": "1.0.3",
-  "description": "",
+  "description": "动效库",
   "author": "wzz",
   "license": "MIT",
   "main": "lib/activity-ui.js",
