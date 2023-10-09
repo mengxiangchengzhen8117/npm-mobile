@@ -2,6 +2,8 @@
   "name": "@mobile/ui-next",
   "version": "1.0.2",
   "description": "",
+  "author": "wzz",
+  "license": "MIT",
   "main": "lib/ui-next.js",
   "style": "lib/index.css",
   "files": [
@@ -20,7 +22,6 @@
     "test:coverage": "open test/coverage/index.html",
     "build-site": "vant-cli build-site && gh-pages -d site"
   },
-  "license": "MIT",
   "husky": {
     "hooks": {}
   },
